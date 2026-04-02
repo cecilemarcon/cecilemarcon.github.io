@@ -1,9 +1,9 @@
 ---
 title: Basicpage template
-author: Your Name
-shortbio: Short bio
-description-meta: Short bio for meta-data
-og-url: https://basicpage.github.io
+author: Cécile Marcon
+shortbio: PhD
+description-meta: PhD
+og-url: https://cecilemarcon.github.io
 location: Location, office
 email: noreply@noemail.com
 clickable-email: false
