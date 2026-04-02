@@ -11,7 +11,7 @@ picture: img/profile.png
 picture-round: false
 side-by-side: true
 disable-dark-mode: false
-pronouns: Pronouns
+pronouns: She/Her
 og-picture: https://basicpage.github.io/img/profile.png
 orcid: 0000-0000-0000-0000
 dblp: https://dblp.org/
