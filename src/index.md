@@ -1,11 +1,11 @@
 ---
-title: Basicpage template
+title: Cecile Marcon
 author: Cécile Marcon
 shortbio: PhD
 description-meta: PhD
 og-url: https://cecilemarcon.github.io
-location: Location, office
-email: noreply@noemail.com
+location: INRIA Lyon, équipe CASH
+email: name.surname[at]inria.fr
 clickable-email: false
 picture: img/profile.png
 picture-round: false
@@ -29,13 +29,6 @@ footer: >-
   made to be easy to use! 🎓
 ---
 
-> [!NOTE]
-> This website is an example of what one can get with the `basicpage` template
-> designed for easy-to-create personal academic page.
-> You are only required to know a little bit of Markdown to get started!
-> Just follow the README of the
-> [Github repository](https://github.com/basicpage/basicpage.github.io).
-
 Here you would write a longer presentation of yourself and your research
 interest, or anything you want really.
 
@@ -48,11 +41,6 @@ You have the power of Markdown, powered by Pandoc to let you do what you want.
   1. Ordered if one wants.
   2. And so on…
 
-> [!TIP]
-> The way this page is structured is only a suggestion, and you are basically
-> free to customise everything however you want. For the more advanced
-> customisation you might need to now very basic CSS and/or HTML, but that's it
-> because we do not rely on any heavy machinery.
 
 # Publications
 
@@ -82,7 +70,7 @@ publications to put them in the nice following shape.
   { "text": "Formalisation", "type": "code", "src": "foo.v" }
 ]
 ```
-
+<!-- 
 ## Journal papers
 
 ``` yaml {.paper}
@@ -101,9 +89,9 @@ files:
   - text: Bibtex
     type: bib
     src: foo.bib
-```
+``` -->
 
-``` yaml {.papers}
+<!-- ``` yaml {.papers}
 papers:
   - title: Yet another yaml parser 2
     authors: Templato Urnehm
@@ -141,7 +129,7 @@ papers:
 "authors": "Templato Urnehm",
 "venue": "Journal of Automatic Rejection (JAR)",
 "year": "2022"
-```
+``` -->
 
 ## Drafts
 
@@ -161,7 +149,7 @@ papers:
   { "text": "Some random file", "src": "foo.rand" }
 ]
 ```
-
+<!-- 
 ## Talks
 
 ``` json {.papers}
@@ -181,11 +169,29 @@ papers:
   "venue": "Don't remember…",
   "year": "???"
 }
-```
+``` -->
 
 # Education
+``` json {.paper}
+"title": "Towards automatic academic pages 2",
+"authors": "Templato Urnehm, U. N. Owen, Wan Morotter",
+"venue": "Principles of Awesomeness (PAW)",
+"year": "2024",
+"url": "https://basicpage.github.io"
+```
 
-Write whatever you want here.
+``` json {.paper}
+"title": "Towards automatic academic pages",
+"authors": "Templato Urnehm, U. N. Owen",
+"awards": "Automatic Award",
+"venue": "Principles of Awesomeness (PAW)",
+"year": "2023",
+"url": "https://basicpage.github.io",
+"files": [
+  { "text": "Paper", "type": "pdf", "src": "foo.pdf" },
+  { "text": "Bibtex", "type": "bib", "src": "foo.bib" },
+  { "text": "Formalisation", "type": "code", "src": "foo.v" }
+]
 
 # Teaching
 
