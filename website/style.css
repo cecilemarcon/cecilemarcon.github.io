@@ -370,3 +370,35 @@ span.lastupdate {
     justify-content: left;
   }
 }
+
+.education-item {
+  display: grid;
+  grid-template-columns: 120px 1fr 80px;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.edu-year {
+  font-weight: bold;
+  color: #555;
+}
+
+.edu-content h3 {
+  margin: 0;
+}
+
+.edu-content p {
+  margin: 0.2rem 0;
+}
+
+.edu-logo {
+  display: flex;
+  justify-content: flex-end; 
+}
+
+.edu-logo img {
+  max-width: 1000px;
+  max-height: 90px;
+  object-fit: contain;
+}
