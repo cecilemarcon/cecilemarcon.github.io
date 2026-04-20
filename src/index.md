@@ -14,7 +14,7 @@ disable-dark-mode: false
 pronouns: She/Her
 og-picture: https://cecilemarcon.github.io/img/maphoto.jpg
 orcid: 0009-0004-1661-5277
-github: https://github.com/cecilemarcon
+github: cecilemarcon
 linkedin: https://www.linkedin.com/in/cecile-marcon-54501a1a2/
 footer: >-
   Based on the
