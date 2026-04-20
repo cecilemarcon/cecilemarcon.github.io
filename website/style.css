@@ -19,6 +19,21 @@ body, div, header, footer, main, h1, h2, h3, h4, h5, h6, img, p {
   padding: 0;
 }
 
+h1 {
+  margin: 0;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid #ddd;
+}
+
+h1:not(:first-of-type) {
+  margin-top: 2.5rem;
+}
+
+h1 + * {
+  margin-top: 1rem;
+}
+
+
 html {
   min-height: 100%;
 }
@@ -381,7 +396,7 @@ span.lastupdate {
 
 .edu-year {
   font-weight: bold;
-  color: #555;
+  color: #F6ECD0;
 }
 
 .edu-content h3 {
@@ -398,6 +413,40 @@ span.lastupdate {
 }
 
 .edu-logo img {
+  max-width: 1000px;
+  max-height: 90px;
+  object-fit: contain;
+}
+
+
+
+.teaching-item {
+  display: grid;
+  grid-template-columns: 120px 1fr 80px;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.teach-year {
+  font-weight: bold;
+  color: #F6ECD0;
+}
+
+.teach-content h3 {
+  margin: 0;
+}
+
+.teach-content p {
+  margin: 0.2rem 0;
+}
+
+.teach-logo {
+  display: flex;
+  justify-content: flex-end; 
+}
+
+.teach-logo img {
   max-width: 1000px;
   max-height: 90px;
   object-fit: contain;

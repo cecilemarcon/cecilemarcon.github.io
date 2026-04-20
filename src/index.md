@@ -7,40 +7,30 @@ og-url: https://cecilemarcon.github.io
 location: INRIA Lyon, CASH team
 email: name.surname[at]inria.fr
 clickable-email: false
-picture: img/profile.png
+picture: img/maphoto.jpg
 picture-round: false
 side-by-side: true
 disable-dark-mode: false
 pronouns: She/Her
-og-picture: https://basicpage.github.io/img/profile.png
-orcid: 0000-0000-0000-0000
-dblp: https://dblp.org/
-scholar: https://scholar.google.com/
-hal: https://hal.science/
-mastodon: https://lipn.info
-github: basicpage
-gitlab: gitlab
-bitbucket: bitbucket.com
-bluesky: https://bsky.app/
-linkedin: https://www.linkedin.com
+og-picture: https://cecilemarcon.github.io/img/maphoto.jpg
+orcid: 0009-0004-1661-5277
+github: https://github.com/cecilemarcon
+linkedin: https://www.linkedin.com/in/cecile-marcon-54501a1a2/
 footer: >-
   Based on the
   [basicpage template](https://github.com/basicpage/basicpage.github.io),
   made to be easy to use! 🎓
 ---
 
-I am currently in a postdoc position at INRIA Lyon in France in the CASH TEAM working on a usability-centred redesign of the Hierarchy Builder library.
+Currently in a postdoc position at INRIA Lyon in France in the CASH team working on a usability-centred redesign of the Hierarchy Builder library.
 
-I am an aspiring associate professor. My subjects of interest are formal methods (especially applied to critical systems), proof assistants and good design principles. 
+Candidating to associate professor positions. My subjects of interest are formal methods (especially applied to critical systems), proof assistants and good design principles. 
 
-``` json {.paper}
-"title": "My last Curriculum Vitae, in french",
-"year": "2026",
-"files": [
-  { "text": "Resume", "type": "pdf", "src": "files/CV_french.pdf" }
-]
-```
-
+<div>Here is my resume (in french), last updated March 2026: 
+<a href="files/CV_french.pdf" class="cv-button" target="_blank">
+  <i class="fa-solid fa-file-pdf"></i> CV (français)
+</a>
+</div>
 
 <!-- Here you would write a longer presentation of yourself and your research
 interest, or anything you want really.
@@ -180,16 +170,37 @@ Click on the name of the different publications to get added resources such as f
 </div>
 
 
-### 
-
 
 
 
 
 # Teaching
 
-Write whatever you want here.
+<div class="teaching-item">
+  <div class="teach-year">2022 -- 2025</div>
+  <div class="teach-content">
+<p> Algorithmics and programmation </p>
+<p> Introduction to System Engineering </p>
+  </div>
+  <div class="teach-logo">
+    <img src="img/isae.png" alt="ISAE-SUPAERO">
+  </div>
+</div>
+
+
+<div class="teaching-item">
+  <div class="teach-year">2022--2026</div>
+  <div class="teach-content">
+    <p> Compiler theory </p>
+    <p> Oriented-object programmation</p>
+    <p> Verification and Validation</p>
+  </div>
+  <div class="teach-logo">
+    <img src="img/enac.png" alt="ENAC">
+  </div>
+</div>
+
 
 # Community service
 
-Write whatever you want here.
+EDMITT PhD students representative (2024--2025)
